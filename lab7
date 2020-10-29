@@ -1,0 +1,37 @@
+1/
+
+
+
+
+2/ Afin de pouvoir compiler le code écrit puis de l'executer, on tape la commande --> gcc -Wall testmax.c max.c -o test.exe
+
+On a généré l'executable nommé --> test.exe 
+Quand on execute le fichier test.exe --> affichage de la valeur max présente dans le tableau 
+
+3/
+ 
+Pour générer les fichiers de compilations intermédiaires : 
+
+Pour effectuer le preprocessing dans un premier temps et générer les fichier .i --> 
+On applique la commande sur max.c et testmax.c -->  gcc -E max.c -o max.i  / gcc -E testmax.c -o testmax.i
+
+
+Pour efectuer la compilation des fichier .i générés, on applique la commande suivante sur max.c et testmax.c
+-->  gcc -S testmax.i max.i
+
+Enfin, pour effectuer l'assemblage, on applique la commande suivante sur chacun des fichiers .s qui viennent d'être générés.
+--> gcc -c testmax.i max.i 
+
+4/
+
+
+Les fichiers intermédiaires générés sont : 
+
+Les fichiers .i issuent du preprocessing --> remplace les variables par leur valeur et change le include en précisant ce qui est contenu dedans.
+
+
+Les fichiers .s issuent de la compilation --> génère le code assembleur à partir des fichiers .i générés lors du preprocessing.
+
+
+Les fichiers .o issuent de la partie assemblage après la compilations --> sont les fichiers binaires correspondant.
+
