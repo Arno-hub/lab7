@@ -35,3 +35,10 @@ Les fichiers .s issuent de la compilation --> génère le code assembleur à par
 
 Les fichiers .o issuent de la partie assemblage après la compilations --> sont les fichiers binaires correspondant.
 
+5/  
+
+La fonction maxmin sera remplacer par le binaire correspondant lors de la dernieère phase de compilation appelée assemblage
+
+6/
+
+
