@@ -16,7 +16,7 @@ Pour effectuer le preprocessing dans un premier temps et générer les fichier .
 On applique la commande sur max.c et testmax.c -->  gcc -E max.c -o max.i  / gcc -E testmax.c -o testmax.i
 
 
-Pour efectuer la compilation des fichier .i générés, on applique la commande suivante sur max.c et testmax.c
+Pour effectuer la compilation des fichier .i générés, on applique la commande suivante sur max.c et testmax.c
 -->  gcc -S testmax.i max.i
 
 Enfin, pour effectuer l'assemblage, on applique la commande suivante sur chacun des fichiers .s qui viennent d'être générés.
