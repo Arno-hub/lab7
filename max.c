@@ -13,5 +13,4 @@ void max(int t[], int n, int *max)
 
 	}
 	*max = val_max; 
-	return 0;
 }

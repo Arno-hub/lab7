@@ -12,9 +12,9 @@ int main()
         variance(t,n,&varia);
 	max(t,n,&val_max); 
 	min(t,n,&val_min);
-	printf("La valeur maximale présente dans le tableau est : %d", val_max) ;
-	printf("La valeur minimale présente dans le tableau est : %d", val_min) ;
-	printf("La variance du tableau est : %f", varia) ;
+	printf("La valeur maximale présente dans le tableau est : %d \n", val_max) ;
+	printf("La valeur minimale présente dans le tableau est : %d \n", val_min) ;
+	printf("La variance du tableau est : %f \n", varia) ;
        	return 0;
 }
 

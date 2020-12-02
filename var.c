@@ -18,5 +18,5 @@ void variance(int t[], int n, float *var)
                 V = (t[i]-M)*(t[i]-M) + V; 
                 }
 	*var = V/n;
-        return 0;
+      
 }                                     

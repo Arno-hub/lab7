@@ -19,8 +19,8 @@ On applique la commande sur max.c et testmax.c -->  gcc -E max.c -o max.i  / gcc
 Pour effectuer la compilation des fichier .i générés, on applique la commande suivante sur max.c et testmax.c
 -->  gcc -S testmax.i max.i
 
-Enfin, pour effectuer l'assemblage, on applique la commande suivante sur chacun des fichiers .s qui viennent d'être générés.
---> gcc -c testmax.i max.i 
+Enfin, pour effectuer l'assemblage et générer les fichiers .o, on applique la commande suivante sur chacun des fichiers .s qui viennent d'être générés.
+--> gcc -c testmax.s max.s 
 
 4/
 
@@ -37,8 +37,23 @@ Les fichiers .o issuent de la partie assemblage après la compilations --> sont 
 
 5/  
 
-La fonction maxmin sera remplacer par le binaire correspondant lors de la dernieère phase de compilation appelée assemblage
+La fonction maxmin sera remplacer par le binaire correspondant lors de la dernière phase de compilation appelée assemblage
 
 6/
 
+On créé la fonction min en C qui permet de trouver la valeur min dans le tableau rentré en paramètre, on créé aussi un fichier min.h et testmin.c permettant de créer et d'initialiser le tableau d'entier suivant : [2 5 7 2 9]. 
+Après compilation et execution, on obtient le résultat suivant : La valeur minimale présente dans le tableau est : 2
 
+
+7/
+On écrit ensuite la fonction variance en C permettant de calculer la variance d'un tableau de dimension N créé à cet effet comme suit : [2 5 7 2 9]
+En compilant les fichiers testvar.c et var.c puis en executant le fichier testvar.exe, on obtient le résultat suivant : 
+La variance du tableau est : 7.600000
+
+8/
+ON créé ensuite un fichier test10nombre.c regroupant toutes les fonctions définies précédement et prenant en paramètre le tableau d'entier suivant : 
+[4,9,10,11,12,15,12,9,0,30]
+après compilation puis execution :
+La valeur maximale présente dans le tableau est : 30 
+La valeur minimale présente dans le tableau est : 0 
+La variance du tableau est : 55.759998

@@ -13,5 +13,5 @@ void min(int t[], int n, int *min)
 
 	}
 	*min = val_min; 
-	return 0;
+	
 }
