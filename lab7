@@ -43,7 +43,7 @@ Après compilation et execution, on obtient le résultat suivant : La valeur min
 
 
 7/
-On écrit ensuite la fonction variance en C permettant de calculer la variance d'un tableau de dimension N créé à cet effet comme suit : [2 5 7 2 9] qui est créé et initiaiser par les fichiers var.h et testvar.c .
+On écrit ensuite la fonction variance en C permettant de calculer la variance d'un tableau de dimension N créé à cet effet comme suit : [2 5 7 2 9] (créé et initiaiser par les fichiers var.h et testvar.c) .
 En compilant les fichiers testvar.c et var.c puis en executant le fichier testvar.exe, on obtient le résultat suivant : 
 La variance du tableau est : 7.600000
 
