@@ -1,7 +1,6 @@
 1/
 
-
-
+On créé un fichier max.c et max.h, la fonction max.c permettant de calculer la valeur max d'un tableau d'entiers.
 
 2/ Afin de pouvoir compiler le code écrit puis de l'executer, on tape la commande --> gcc -Wall testmax.c max.c -o test.exe
 
@@ -15,15 +14,13 @@ Pour générer les fichiers de compilations intermédiaires :
 Pour effectuer le preprocessing dans un premier temps et générer les fichier .i --> 
 On applique la commande sur max.c et testmax.c -->  gcc -E max.c -o max.i  / gcc -E testmax.c -o testmax.i
 
-
 Pour effectuer la compilation des fichier .i générés, on applique la commande suivante sur max.c et testmax.c
--->  gcc -S testmax.i max.i
+--> gcc -S testmax.i max.i
 
 Enfin, pour effectuer l'assemblage et générer les fichiers .o, on applique la commande suivante sur chacun des fichiers .s qui viennent d'être générés.
 --> gcc -c testmax.s max.s 
 
 4/
-
 
 Les fichiers intermédiaires générés sont : 
 
